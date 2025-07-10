@@ -1,0 +1,10 @@
+# this is version 2 to test newly added proxima server at Canada Central Location .. test-cnc-01 
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "terraform"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    cooldown:
+      default-days: 90
